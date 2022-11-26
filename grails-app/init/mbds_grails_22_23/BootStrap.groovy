@@ -14,9 +14,6 @@ class BootStrap {
         UserRole.create(adminUserInstance, adminRole, true)
 
 
-        def Userin = new User(username: "user",password: "user").save()
-        def userole1 = new Role(authority: "ROLE_CLIENT").save()
-        UserRole.create(Userin,userole1, true)
 
 
         def  administer= new User (username: "admin1",password:"pass" ).save()
